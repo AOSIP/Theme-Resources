@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-WORKING_DIR=/home/fox/aosip
+WORKING_DIR="${HOME}/nougat"
 
 function delete_useless () {
   declare -a array=($@)
@@ -127,4 +127,11 @@ mkdir Theme-Resources/frameworks
 echo "Copying all files to $WORKING_DIR/Theme-Resources"
 copy_all ${theme_packages[@]}
 cp -r $WORKING_DIR/frameworks/base/core $WORKING_DIR/frameworks/base/packages $WORKING_DIR/Theme-Resources/frameworks
-cd /home/fox/aosip/Theme-Resources
+cd ${WORKING_DIR}/Theme-Resources
+git add -A
+echo "Cleaning java, makefiles, etc."
+rm -rfv $(find -name *.java -o -name *.pro -o -name *.gitignore -o -name *.gradle -o -name *.mk)
+echo "AOSiP Theme Resources Update on $(date)" >> /tmp/thememsg
+git commit -asF /tmp/thememsg
+rm -fv /tmp/thememsg
+git push origin nougat -u
