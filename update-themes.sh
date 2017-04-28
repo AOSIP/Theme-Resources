@@ -82,7 +82,7 @@ declare -a values=('all_search_engines.xml' 'appmsg_colors.xml' 'arrays.xml' 'at
 declare -a core=('java' 'jni' 'tests')
 
 declare -a theme_packages=('ExactCalculator' 'Calendar' 'Contacts' 'ContactsCommon' 'DeskClock' 'Dialer' 'DUI' 'Gallery2' 'CalendarWidget' 'FMRadio'
-                           'Launcher3' 'LockClock' 'Messaging' 'MusicFX' 'PhoneCommon' 'Settings' 'Stk' 'OmniSwitch' 'OmniStyle' 'SlimRecents' 'OwlsNest')
+                           'Launcher3' 'LockClock' 'Messaging' 'MusicFX' 'PhoneCommon' 'Settings' 'Stk' 'OmniSwitch' 'SlimRecents' 'OwlsNest')
 
 echo "Removing unneeded files"
 cd frameworks/base
