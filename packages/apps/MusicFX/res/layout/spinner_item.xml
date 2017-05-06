@@ -27,14 +27,15 @@
   OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
   IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/text1"
-    style="?android:attr/spinnerDropDownItemStyle"
-    android:singleLine="true"
-    android:textStyle="bold"
+    android:minHeight="40dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:singleLine="true"
     android:ellipsize="marquee"
-    android:drawablePadding="2dp"
-    android:drawableRight="@drawable/more_icon"
-    android:textColor="@color/disabled"/>
+    android:gravity="center_vertical"
+    android:background="@color/spinner_reverb_list"
+    android:textColor="@color/textColor"/>

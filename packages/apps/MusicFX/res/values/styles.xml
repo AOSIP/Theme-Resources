@@ -23,29 +23,24 @@
         <item name="android:maxWidth">33dip</item>
         <item name="android:thumb">@drawable/button</item>
         <item name="android:background">@null</item>
-        <item name="android:thumbOffset">16dip</item>
+        <item name="android:thumbOffset">5dip</item>
         <item name="android:focusable">true</item>
         <item name="android:paddingLeft">0dip</item>
         <item name="android:paddingRight">0dip</item>
-        <item name="android:paddingTop">16dip</item>
-        <item name="android:paddingBottom">16dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">0dip</item>
     </style>
 
-    <style name="EqTheme"
-           parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@color/highlight</item>
-        <item name="android:colorPrimaryDark">@color/lowlight</item>
-        <item name="android:colorAccent">@color/highlight</item>
-        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
     </style>
 
-   <!-- ActionBar styles -->
-    <style name="CustomActionBar" parent="@android:style/Widget.Material.Light.ActionBar">
-        <item name="android:background">@color/highlight</item>
-        <item name="android:elevation">5dp</item>
-        <item name="android:titleTextStyle">@style/EqTheme.CustomActionBar.Text</item>
-    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="EqTheme.CustomActionBar.Text"
-        parent="@android:style/TextAppearance.Medium" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

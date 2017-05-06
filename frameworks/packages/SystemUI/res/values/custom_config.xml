@@ -18,7 +18,7 @@
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_extra" translatable="false">
-      hotspot,inversion,saver,work,cast,night,caffeine,heads_up,screenshot,screenrecord,reboot,sound,navigation_bar,music,weather,adb_network,sync,expanded_desktop,app_picker,usb_tether,ime,locale,nfc,lte,volume,owlsnest,androidauto,ambient,pulse,assist,voiceassist,high_brightness
+      hotspot,inversion,saver,work,cast,night,caffeine,heads_up,screenshot,screenrecord,reboot,sound,navigation_bar,music,weather,adb_network,sync,expanded_desktop,app_picker,usb_tether,ime,locale,nfc,lte,volume,owlsnest,androidauto,ambient,pulse,assist,voiceassist,hwkeys
     </string>
 
     <!-- The min animation duration for animating the fab in. -->

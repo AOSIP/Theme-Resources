@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <!-- Power menu Animations  -->
+  <java-symbol type="style" name="PowerMenuBottomAnimation" />
+  <java-symbol type="style" name="PowerMenuTopAnimation" />
+  <java-symbol type="style" name="PowerMenuRotateAnimation" />
+  <java-symbol type="style" name="PowerMenuXylonAnimation" />
+  <java-symbol type="style" name="PowerMenuTranslucentAnimation" />
+  <java-symbol type="style" name="PowerMenuTnAnimation" />
+  <java-symbol type="style" name="PowerMenuflyAnimation" />
+  <java-symbol type="style" name="PowerMenuCardAnimation" />
+
+  <!-- Reboot - Advanced Reboot -->
+  <java-symbol type="array" name="shutdown_reboot_options" />
+  <java-symbol type="array" name="shutdown_reboot_actions" />
+  <java-symbol type="bool" name="config_advanced_reboot" />
+  <java-symbol type="drawable" name="ic_lock_power_reboot" />
+  <java-symbol type="string" name="reboot_confirm" />
+  <java-symbol type="string" name="reboot_progress" />
+  <java-symbol type="string" name="global_action_reboot" />
+
+  <!-- Package Manager -->
+  <java-symbol type="array" name="config_disabledComponents" />
+  <java-symbol type="array" name="config_forceEnabledComponents" />
+
+  <java-symbol type="drawable" name="ic_lock_screenshot" />
+  <java-symbol type="string" name="global_action_screenshot" />
+  <java-symbol type="string" name="global_action_search" />
+  <java-symbol type="string" name="global_action_voicesearch" />
+  <java-symbol type="drawable" name="ic_lock_settings" />
+  <java-symbol type="drawable" name="ic_lock_user" />
+  <java-symbol type="drawable" name="ic_lock_assist" />
+  <java-symbol type="drawable" name="ic_lock_voice" />
+  <java-symbol type="drawable" name="ic_lock_torch" />
+  <java-symbol type="string" name="global_action_torch" />
+  <java-symbol type="drawable" name="ic_lock_screenrecord" />
+  <java-symbol type="string" name="global_action_screenrecord" />
+
+   <!-- Screenrecord -->
+  <java-symbol type="bool" name="config_enableScreenrecordChord" />
+
+  <!-- ADB notification -->
+  <java-symbol type="string" name="adb_net_active_notification_title" />
+  <java-symbol type="string" name="adb_both_active_notification_title" />
+  <java-symbol type="string" name="adb_active_generic_notification_message" />
+
+  <!-- SeekBarPreference -->
+  <java-symbol type="layout" name="seek_bar_preference" />
+  <java-symbol type="id" name="seekBarPrefBarContainer" />
+  <java-symbol type="id" name="seekBarPrefValue" />
+  <java-symbol type="id" name="seekBarPrefUnitsRight" />
+  <java-symbol type="id" name="seekBarPrefUnitsLeft" />
+  <java-symbol type="attr" name="interval" />
+  <java-symbol type="attr" name="min" />
+  <java-symbol type="attr" name="unitsLeft" />
+  <java-symbol type="attr" name="unitsRight" />
+
+  <!-- Shortcut actions -->
+  <java-symbol type="drawable" name="ic_shortcut_action_silent" />
+  <java-symbol type="drawable" name="ic_shortcut_action_theme_switch" />
+  <java-symbol type="drawable" name="ic_shortcut_action_torch" />
+  <java-symbol type="drawable" name="ic_shortcut_action_vib" />
+  <java-symbol type="drawable" name="ic_shortcut_action_back" />
+  <java-symbol type="drawable" name="ic_shortcut_action_back_ime" />
+  <java-symbol type="drawable" name="ic_shortcut_action_camera" />
+  <java-symbol type="drawable" name="ic_shortcut_action_expanded_desktop" />
+  <java-symbol type="drawable" name="ic_shortcut_action_home" />
+  <java-symbol type="drawable" name="ic_shortcut_action_ime_switcher" />
+  <java-symbol type="drawable" name="ic_shortcut_action_killtask" />
+  <java-symbol type="drawable" name="ic_shortcut_action_lastapp" />
+  <java-symbol type="drawable" name="ic_shortcut_action_menu_big" />
+  <java-symbol type="drawable" name="ic_shortcut_action_navbar" />
+  <java-symbol type="drawable" name="ic_shortcut_action_notifications" />
+  <java-symbol type="drawable" name="ic_shortcut_action_null" />
+  <java-symbol type="drawable" name="ic_shortcut_action_pie" />
+  <java-symbol type="drawable" name="ic_shortcut_action_power" />
+  <java-symbol type="drawable" name="ic_shortcut_action_power_menu" />
+  <java-symbol type="drawable" name="ic_shortcut_action_quicksettings" />
+  <java-symbol type="drawable" name="ic_shortcut_action_recent" />
+  <java-symbol type="drawable" name="ic_shortcut_action_ring_vib_silent" />
+  <java-symbol type="drawable" name="ic_shortcut_action_screenshot" />
+  <java-symbol type="drawable" name="ic_shortcut_action_search" />
+
+  <!-- LED pulse -->
+  <java-symbol type="bool" name="config_ledCanPulse" />
+
+  <!-- Notification and battery light -->
+  <java-symbol type="bool" name="config_intrusiveNotificationLed" />
+  <java-symbol type="bool" name="config_multiColorNotificationLed" />
+  <java-symbol type="bool" name="config_intrusiveBatteryLed" />
+  <java-symbol type="bool" name="config_multiColorBatteryLed" />
+  <java-symbol type="array" name="notification_light_package_mapping" />
+  <java-symbol type="array" name="config_notificationNoAlertsVibePattern" />
+
+  <!-- Unlink notification images -->
+  <java-symbol type="drawable" name="ic_audio_notification_new" />
+  <java-symbol type="drawable" name="ic_audio_notification_mute_new" />
+
+  <!-- Dynamic Navbar -->
+  <java-symbol type="color" name="input_method_navigation_guard_dynamic" />
+
+  <!-- Hardware key binding -->
+  <java-symbol type="integer" name="config_deviceHardwareKeys" />
+
+  <!-- Quick settings tiles columns and rows config -->
+  <java-symbol type="integer" name="config_qs_num_rows_landscape_default"/>
+
+  <!-- Slim recent app screen-->
+  <java-symbol type="integer" name="config_recentDefaultDur" />
+  <java-symbol type="integer" name="config_recentExitDur" />
+  <java-symbol type="style" name="Animation.RecentScreen" />
+  <java-symbol type="style" name="Animation.RecentScreen.Left" />
+  <java-symbol type="anim" name="recent_screen_enter" />
+  <java-symbol type="anim" name="recent_screen_enter_left" />
+  <java-symbol type="anim" name="recent_screen_fade_out" />
+
+  <!-- Whether device has dash charging support -->
+  <java-symbol type="bool" name="config_hasDashCharger" />
+
+</resources>

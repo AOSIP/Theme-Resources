@@ -41,8 +41,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_marginStart="@dimen/eq_slider_margin"
         android:layout_marginEnd="@dimen/eq_slider_margin"
         android:layout_width="48dp"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:visibility="invisible" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
     <TextView
         android:id="@+id/EQBandTextView"
         android:layout_width="match_parent"
@@ -51,5 +55,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:gravity="center"
         android:alpha="0.54"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/textColor" />
 </LinearLayout>

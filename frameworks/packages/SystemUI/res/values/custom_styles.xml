@@ -60,9 +60,6 @@
         <item name="blendMode">overlay</item>
     </style>
 
-    <style name="TextAppearance.StatusBar.WeatherTemp" parent="@*android:style/TextAppearance.StatusBar">
-        <item name="android:textStyle">normal</item>
-    </style>
 
     <style name="AppPicker" parent="@android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>

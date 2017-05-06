@@ -55,7 +55,7 @@
         android:layout_marginEnd="12dp">
 
         <com.android.systemui.statusbar.phone.MultiUserSwitch android:id="@+id/multi_user_switch"
-            android:layout_width="40dp"
+            android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_alignParentEnd="true"
             android:focusable="true"
@@ -69,7 +69,7 @@
 
         <com.android.systemui.statusbar.AlphaOptimizedImageView
             android:id="@android:id/edit"
-            android:layout_width="46dp"
+            android:layout_width="48dp"
             android:layout_height="48dp"
             android:clipToPadding="false"
             android:clickable="true"
@@ -77,21 +77,19 @@
             android:src="@drawable/ic_mode_edit"
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/accessibility_quick_settings_edit"
-            android:padding="13dp" />
+            android:padding="14dp" />
 
-    <com.android.keyguard.AlphaOptimizedImageButton 
-        android:id="@+id/running_services_button"
+    <com.android.keyguard.AlphaOptimizedImageButton android:id="@+id/running_services_button"
         style="@android:style/Widget.Material.Button.Borderless"
-        android:layout_width="46dp"
+        android:layout_width="48dp"
         android:layout_height="48dp"
         android:background="@drawable/ripple_drawable"
         android:src="@drawable/ic_settings_memory"
         android:contentDescription="@string/accessibility_quick_settings_running_services" />
 
-    <com.android.keyguard.AlphaOptimizedImageButton 
-        android:id="@+id/settings_button"
+    <com.android.keyguard.AlphaOptimizedImageButton android:id="@+id/settings_button"
         style="@android:style/Widget.Material.Button.Borderless"
-        android:layout_width="46dp"
+        android:layout_width="48dp"
         android:layout_height="48dp"
         android:background="@drawable/ripple_drawable"
         android:src="@drawable/ic_settings_20dp"
@@ -99,14 +97,14 @@
 
         <com.android.systemui.statusbar.phone.ExpandableIndicator
             android:id="@+id/expand_indicator"
-            android:layout_width="46dp"
+            android:layout_width="48dp"
             android:layout_height="48dp"
             android:clipToPadding="false"
             android:clickable="true"
             android:focusable="true"
             android:background="@drawable/ripple_drawable"
             android:contentDescription="@string/accessibility_quick_settings_expand"
-            android:padding="11dp" />
+            android:padding="12dp" />
 
     </LinearLayout>
 
